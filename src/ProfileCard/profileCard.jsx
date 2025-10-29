@@ -4,7 +4,7 @@ function ProfileCard() {
     return(
         <div className="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden mt-10">
             <div className="flex flex-col items-center p-6">
-                <img src="../public/images/download" alt="" />
+                <img src="../public/images/download.jpg" alt="" />
                 <h2 className="mt-4 text-xl font-semibold text-gray-800">Zahra Alvandi</h2>
                 <p className="mt-2 text-gray-600 text-center">A passionate web developer learning Reac and also Cybersecurity</p>
                 <div className="flex gap-3 mt-4">

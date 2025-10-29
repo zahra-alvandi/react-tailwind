@@ -4,22 +4,22 @@ function ProfileCard() {
     return(
         <div className="max-w-sm mx-auto bg-white rounded-xl shadow-lg overflow-hidden mt-10">
             <div className="flex flex-col items-center p-6">
-                <img src="../public/images/download.jpg" alt="" />
+                <img src="./images/download.jpg" className="w-24 h-24 rounded-full" alt="" />
                 <h2 className="mt-4 text-xl font-semibold text-gray-800">Zahra Alvandi</h2>
-                <p className="mt-2 text-gray-600 text-center">A passionate web developer learning Reac and also Cybersecurity</p>
+                <p className="mt-2 text-gray-600 text-center">A passionate web developer <br /> learning React and also Cybersecurity</p>
                 <div className="flex gap-3 mt-4">
                     <a href="#">
-                        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-gray-700 hover:text-blue-500 transition" fill="currentColor" viewBox="0 0 24 24">
       <path d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0022.4.36a9.1 9.1 0 01-2.88 1.1A4.52 4.52 0 0016.67 0c-2.5 0-4.52 2.03-4.52 4.53 0 .35.04.7.11 1.03A12.94 12.94 0 013 1.64a4.48 4.48 0 001.4 6.05 4.52 4.52 0 01-2.05-.57v.06c0 2.2 1.56 4.03 3.63 4.44a4.52 4.52 0 01-2.04.08 4.53 4.53 0 004.23 3.14A9.05 9.05 0 010 19.54a12.74 12.74 0 006.92 2.03c8.3 0 12.85-6.87 12.85-12.84 0-.2 0-.39-.01-.58A9.18 9.18 0 0023 3z" />
     </svg>
                     </a>
                     <a href="#">
-                        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-gray-700 hover:text-blue-500 transition" fill="currentColor" viewBox="0 0 24 24">
       <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.07c.67-1.26 2.3-2.6 4.73-2.6C21.4 7.6 24 10.4 24 15.3V24h-5v-8.5c0-2.02-.04-4.63-2.83-4.63-2.83 0-3.26 2.2-3.26 4.48V24h-5V8z"/>
     </svg>
                     </a>
                     <a href="#">
-                         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                         <svg className="w-5 h-5 text-gray-700 hover:text-blue-500 transition" fill="currentColor" viewBox="0 0 24 24">
       <path d="M12 2.2c3.2 0 3.584.012 4.85.07 1.17.056 1.96.24 2.42.403a4.92 4.92 0 011.78 1.03c.5.5.82 1.11 1.03 1.78.163.46.347 1.25.403 2.42.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.96-.403 2.42a4.92 4.92 0 01-1.03 1.78 4.92 4.92 0 01-1.78 1.03c-.46.163-1.25.347-2.42.403-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.96-.24-2.42-.403a4.92 4.92 0 01-1.78-1.03 4.92 4.92 0 01-1.03-1.78c-.163-.46-.347-1.25-.403-2.42C2.212 15.584 2.2 15.2 2.2 12s.012-3.584.07-4.85c.056-1.17.24-1.96.403-2.42a4.92 4.92 0 011.03-1.78 4.92 4.92 0 011.78-1.03c.46-.163 1.25-.347 2.42-.403C8.416 2.212 8.8 2.2 12 2.2zm0-2.2C8.735 0 8.332.012 7.053.07 5.773.128 4.86.322 4.042.58a7.12 7.12 0 00-2.58 1.53A7.12 7.12 0 00.58 4.042C.322 4.86.128 5.773.07 7.053.012 8.332 0 8.735 0 12s.012 3.668.07 4.947c.058 1.28.252 2.193.51 3.011a7.12 7.12 0 001.53 2.58 7.12 7.12 0 002.58 1.53c.818.258 1.73.452 3.01.51C8.332 23.988 8.735 24 12 24s3.668-.012 4.947-.07c1.28-.058 2.193-.252 3.01-.51a7.12 7.12 0 002.58-1.53 7.12 7.12 0 001.53-2.58c.258-.818.452-1.73.51-3.01C23.988 15.668 24 15.265 24 12s-.012-3.668-.07-4.947c-.058-1.28-.252-2.193-.51-3.01a7.12 7.12 0 00-1.53-2.58 7.12 7.12 0 00-2.58-1.53c-.818-.258-1.73-.452-3.01-.51C15.668.012 15.265 0 12 0zm0 5.8a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zm0 10.2a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"/>
     </svg>
                     </a>

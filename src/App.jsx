@@ -7,7 +7,7 @@ import AuthForm from './AuthForm/authForm';
 function App() {
   return (
    <div>
-        <ProfileCard></ProfileCard>
+        {/* <ProfileCard></ProfileCard> */}
         {/* <Naav></Naav> */}
         <AuthForm></AuthForm>
    </div>

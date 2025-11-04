@@ -12,7 +12,8 @@ class User extends Component {
                 "ثبت نام در سایت",
                 "تصحیح برگه ها",
                 "طراحی پروژه",
-                "خرید مایحتاج"
+                "خرید مایحتاج",
+                "خرید ما یحتاج"
             ]
         }
     }
@@ -23,7 +24,7 @@ class User extends Component {
 
                 <div className="container">
 
-                    <a className="text-white" href="/">Hello World</a>
+                    <a className="text-white inline-block mt-4" href="/">Hello World</a>
 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                         <span className="navbar-toggler-icon"></span>
@@ -34,7 +35,7 @@ class User extends Component {
                             {this.state.notifications.length > 0 && (
                                 <li className="nav-item">
                                     <span className="badge badge-pill badge-warning">{this.state.notifications.length}</span>
-                                    <a className="nav-link" href="/News/">News <span className="sr-only">(current)</span></a>
+                                    <a className="nav-link" href="/News/"> News <span className="sr-only">(current)</span></a>
                                 </li>
                             )}
 
